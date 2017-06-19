@@ -41,14 +41,19 @@
 
             <div class="col-md-12">
 
+                </br>
                 <div class="">
                     <img src="http://placehold.it/1200x400" class="img-responsive p-squiggle shadow" alt="top banner img" />
                 </div>
+                </br>
 
+                <!--
                 <div class="seperator-container">
                     <div class="seperator-3">
                     </div>
                 </div>
+                </br>
+                -->
 
                 <!-- Navigation -->
                 <nav class="post" role="navigation">

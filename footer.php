@@ -1,10 +1,11 @@
 
 <!-- /.row -->
-
+</br>
 <div class="seperator-container">
     <div class="seperator-3">
     </div>
 </div>
+</br>
 
 <!-- Footer -->
 <footer>

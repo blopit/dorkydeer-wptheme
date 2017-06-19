@@ -231,15 +231,11 @@ footer {
     display: inline-block;
     height: 2px;
     width: 80%;
-    background: #008800; /* Old browsers */
-    background: -moz-linear-gradient(left, transparent 0%, #008800 10%, #008800 90%, transparent 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(left, transparent 0%, #008800 10%, #008800 90%, transparent 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to right, transparent 0%, #008800 10%, #008800 90%, transparent 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#008800', endColorstr='#008800', GradientType=1); /* IE6-9 */
-}
-
-.date {
-    float: right;
+    background: #8E8E83; /* Old browsers */
+    background: -moz-linear-gradient(left, transparent 0%, #8E8E83 10%, #8E8E83 90%, transparent 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, transparent 0%, #8E8E83 10%, #8E8E83 90%, transparent 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, transparent 0%, #8E8E83 10%, #8E8E83 90%, transparent 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#8E8E83', endColorstr='#8E8E83', GradientType=1); /* IE6-9 */
 }
 
 /* STACKING */
