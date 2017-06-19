@@ -1,0 +1,122 @@
+/*
+
+ Theme Name: Custom Emi Comic Site Theme
+ Author: Haley Elder
+ Description: Bootstrap theme converted to WordPress
+ Version: 0.0.1
+ Tags: bootstrap
+
+
+
+ * Start Bootstrap - Blog Home (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+*/
+
+
+/* CUSTOM STYLES */
+body {
+    background-color: #BDD0B0;
+    background-image: linear-gradient(90deg, transparent 50%, rgba(255, 255, 255, .35) 50%);
+    background-size: 100px 100px;
+}
+
+.container .row {
+  background-color: white;
+}
+
+.page-header {
+  width: 100%;
+}
+
+.navbar-nav li:hover {
+  background-color: darkgreen;
+}
+
+.socials {
+    padding: 15px 10px;
+}
+.socials i {
+  font-size: 20px;
+}
+
+.socials a {
+  padding: 0 25px;
+}
+
+.socials a:hover {
+  text-decoration: none;
+}
+.navbar-inverse {
+  border-radius: 0;
+  padding: 10px;
+ background-color: black;
+ border-color:rgba(8, 8, 8, 0) !important;
+}
+.well .row {
+  background-color: rgba(0,0,0,0);
+}
+.navbar-nav li {
+  background-color: gray;
+  padding: 0px 56px;
+  margin-right: 20px;
+}
+
+.navbar-nav li a {
+  color: white !important;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 800;
+}
+
+navbar .navbar-inverse .container {
+  background-color: rbga(0,0,0,0);
+}
+
+
+a {
+  color: darkgreen;
+}
+
+.fancy-links {
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+.btn {
+  background-color:darkgreen;
+  border-radius: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+}
+
+footer {
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .navbar-nav li  {
+    text-align:center;
+    padding: 6px 50px;
+    margin: 6px 0 0 0;
+  }
+  .navbar-toggle {
+    background-color: black;
+    padding: 16px;
+    border-radius: 0;
+    margin: 0 10px 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .navbar-nav li {
+    padding: 0 26px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .navbar-nav li {
+    padding: 0px 78px;
+  }
+}

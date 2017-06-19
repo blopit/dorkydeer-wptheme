@@ -1,0 +1,96 @@
+/*
+
+ Theme Name: Custom Emi Comic Site Theme
+ Author: Haley Elder
+ Description: Bootstrap theme converted to WordPress
+ Version: 0.0.1
+ Tags: bootstrap
+
+
+
+ * Start Bootstrap - Blog Home (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+*/
+
+
+/* CUSTOM STYLES */
+
+body {
+  /*  padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+footer {
+    margin: 50px 0;
+}
+
+.page-header {
+  width: 100%;
+}
+
+.socials {
+    padding: 15px 10px;
+}
+.socials i {
+  font-size: 20px;
+}
+
+.socials a {
+  padding: 0 25px;
+}
+
+.socials a:hover {
+  text-decoration: none;
+}
+.navbar-inverse {
+  background-color: gray;
+  border-radius: 0;
+  padding: 10px;
+  border-color: gray;
+}
+.navbar-nav li {
+  background-color: black;
+  padding: 0px 52px;
+  margin-right: 20px;
+}
+
+.navbar-nav li a {
+  color: white;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 800;
+}
+
+a {
+  color: darkgreen;
+}
+
+.btn {
+  background-color:darkgreen;
+  border-radius: 0;
+}
+@media (max-width: 768px) {
+  .navbar-nav li  {
+    text-align:center;
+    padding: 6px 50px;
+    margin: 6px 0 0 0;
+  }
+  .navbar-toggle {
+    background-color: black;
+    padding: 16px;
+    border-radius: 0;
+    margin: 0 10px 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .navbar-nav li {
+    padding: 0 26px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .navbar-nav li {
+    padding: 0px 78px;
+  }
+}
