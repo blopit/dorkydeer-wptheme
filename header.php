@@ -37,16 +37,23 @@
     <div class="container">
         <div class="row">
             <!-- Blog Entries Column -->
+
+
             <div class="col-md-12">
 
-                <div class="page-header">
-                    <img src="http://placehold.it/1200x400" class="img-responsive" alt="top banner img" />
+                <div class="">
+                    <img src="http://placehold.it/1200x400" class="img-responsive p-squiggle shadow" alt="top banner img" />
+                </div>
+
+                <div class="seperator-container">
+                    <div class="seperator-3">
+                    </div>
                 </div>
 
                 <!-- Navigation -->
-                <nav class="navbar navbar-inverse" role="navigation">
-
-                    <div class="container">
+                <nav class="post" role="navigation">
+                    <div class="post-background"></div>
+                    <div class="container post-main">
                         <!-- Brand and toggle get grouped for better mobile display -->
                         <div class="navbar-header">
                             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">

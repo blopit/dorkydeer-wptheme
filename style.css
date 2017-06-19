@@ -22,7 +22,7 @@ body {
 }
 
 .container .row {
-  background-color: white;
+  background-color: transparent;
 }
 
 .page-header {
@@ -119,4 +119,234 @@ footer {
   .navbar-nav li {
     padding: 0px 78px;
   }
+}
+
+.post {
+    padding: 20px 24px 24px;
+    margin: 24px 0px;
+    position: relative;
+}
+
+.post-background {
+    filter: url("#turbulence-1");
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    border-radius: 2px;
+    background: #f1f1e4; /* Old browsers */
+    background: -moz-linear-gradient(top, #f1f1e4 0%, #e5e5d8 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #f1f1e4 0%, #e5e5d8 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #f1f1e4 0%, #e5e5d8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1f1e4', endColorstr='#e5e5d8',GradientType=0 ); /* IE6-9 */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+}
+
+.shadow {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+}
+
+.height-fix {
+    height: 100%;
+}
+
+.post-main {
+    z-index: 10;
+}
+
+@keyframes squigglevision {
+    0% {
+        filter: url("#turbulence-1");
+    }
+    12.5% {
+        filter: url("#turbulence-2");
+    }
+    25% {
+        filter: url("#turbulence-3");
+    }
+    37.5% {
+        filter: url("#turbulence-4");
+    }
+    50% {
+        filter: url("#turbulence-5");
+    }
+    62.5% {
+        filter: url("#turbulence-4");
+    }
+    75% {
+        filter: url("#turbulence-3");
+    }
+    87.5% {
+        filter: url("#turbulence-2");
+    }
+    100% {
+        filter: url("#turbulence-1");
+    }
+}
+
+.squiggle {
+    animation: squigglevision 2s infinite alternate;
+}
+
+.sidebar-text {
+    color: #d0514f;
+    animation: squigglevision 2s infinite alternate;
+}
+
+.p-squiggle {
+    filter: url("#turbulence-1");
+}
+
+.seperator-container {
+    text-align: center;
+    filter: url("#turbulence-x");
+}
+
+.seperator {
+    display: inline-block;
+    height: 2px;
+    width: 40%;
+    background: #d0514f; /* Old browsers */
+    background: -moz-linear-gradient(left, transparent 0%, #d0514f 10%, #d0514f 90%, transparent 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, transparent 0%, #d0514f 10%, #d0514f 90%, transparent 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, transparent 0%, #d0514f 10%, #d0514f 90%, transparent 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d0514f', endColorstr='#d0514f', GradientType=1); /* IE6-9 */
+}
+
+.seperator-2 {
+    display: inline-block;
+    height: 2px;
+    width: 80%;
+    background: #CECEC3; /* Old browsers */
+    background: -moz-linear-gradient(left, transparent 0%, #CECEC3 10%, #CECEC3 90%, transparent 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, transparent 0%, #CECEC3 10%, #CECEC3 90%, transparent 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, transparent 0%, #CECEC3 10%, #CECEC3 90%, transparent 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#CECEC3', endColorstr='#CECEC3', GradientType=1); /* IE6-9 */
+}
+
+.seperator-3 {
+    display: inline-block;
+    height: 2px;
+    width: 80%;
+    background: #008800; /* Old browsers */
+    background: -moz-linear-gradient(left, transparent 0%, #008800 10%, #008800 90%, transparent 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, transparent 0%, #008800 10%, #008800 90%, transparent 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, transparent 0%, #008800 10%, #008800 90%, transparent 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#008800', endColorstr='#008800', GradientType=1); /* IE6-9 */
+}
+
+.date {
+    float: right;
+}
+
+/* STACKING */
+
+/*Stack child items vertically*/
+.vbox {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+
+    /*Align children vetically*/
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+
+    -webkit-align-content: flex-start;
+    -ms-flex-line-pack: start;
+    align-content: flex-start;
+}
+/*Stack child items horizontally*/
+.hbox {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+
+    /*Align children horizontally*/
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+
+    -webkit-align-content: flex-start;
+    -ms-flex-line-pack: start;
+    align-content: flex-start;
+}
+/*Stretch item along parent's main-axis*/
+.flex {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+/*Stretch item along parent's cross-axis*/
+.stretch {
+    align-self: stretch;
+}
+
+/*Stack child items to the main-axis start*/
+.main-start {
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: flex-start;
+    justify-content: flex-start;
+}
+/*Stack child items to the cross-axis start*/
+.cross-start {
+    -webkit-align-items: flex-start;
+    -ms-flex-align: flex-start;
+    align-items: flex-start;
+
+    -webkit-align-content: flex-start;
+    -ms-flex-line-pack: start;
+    align-content: flex-start;
+}
+/*Stack child items to the main-axis center*/
+.main-center {
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+/*Stack child items to the cross-axis center*/
+.cross-center {
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+}
+/*Stack child items to the main-axis end.*/
+.main-end {
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+/*Stack child items to the cross-axis end.*/
+.cross-end {
+    -webkit-align-items: flex-end;
+    -ms-flex-align: flex-end;
+    align-items: flex-end;
+
+    -webkit-align-content: flex-end;
+    -ms-flex-line-pack: end;
+    align-content: flex-end;
+}
+/*Stretch child items along the cross-axis*/
+.cross-stretch {
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+}
+
+/*Wrap items to next line on main-axis*/
+.wrap {
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
 }
