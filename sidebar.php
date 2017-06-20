@@ -83,7 +83,7 @@
     <div class="post">
       <div class="post-background"></div>
       <div class="post-main">
-        <h4>Post Archives</h4>
+        <h2 class="sidebar-text">Post Archives</h2>
         <div class="row">
             <div class="col-lg-6">
                 <ul class="list-unstyled">

@@ -20,7 +20,7 @@
     <link href="<?php echo get_bloginfo('template_directory'); ?>/style.css" rel="stylesheet"/>
 
     <!-- include google font-->
-    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Indie+Flower" rel="stylesheet">
 
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -56,7 +56,7 @@
                 -->
 
                 <!-- Navigation -->
-                <nav class="post" role="navigation">
+                <nav class="post" role="navigation" style="margin-bottom: -10;">
                     <div class="post-background"></div>
                     <div class="container post-main">
                         <!-- Brand and toggle get grouped for better mobile display -->

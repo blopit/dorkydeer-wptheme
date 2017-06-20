@@ -7,7 +7,7 @@
       <div class='vbox'>
 
         <h2 class="blog-post-title fancy-links squiggle"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-        <p class="data">
+        <p class="data fancy-header">
           posted on
           <?php the_date(); ?>
         </p>
