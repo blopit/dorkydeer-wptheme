@@ -68,11 +68,10 @@
         return check;
     };
     addEvent(window, "resize", function(event) {
-        fixPostHeight(0);
         clearTimeout(resizeTimer);
         resizeTimer = setTimeout(function() {
             fixPostHeight(100);
-        }, 250);
+        }, 100);
     });
 
     if (mobileCheck() || navigator.userAgent.search("Safari") >= 0 && navigator.userAgent.search("Chrome") < 0) {
