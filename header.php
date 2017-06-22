@@ -33,6 +33,7 @@
 </head>
 
 <body>
+    <div class="parallax-overlay"></div>
       <!-- Page Content -->
     <div class="container">
         <div class="row">

@@ -68,7 +68,7 @@
         return check;
     };
     addEvent(window, "resize", function(event) {
-        fixPostHeight(1);
+        fixPostHeight(0);
         clearTimeout(resizeTimer);
         resizeTimer = setTimeout(function() {
             fixPostHeight(100);
@@ -87,6 +87,7 @@
 <!--
 <script src="<?php echo get_bloginfo('template_directory'); ?>/bootstrap.min.js"></script>-->
 <?php wp_footer(); ?>
+
 </body>
 
 </html>
