@@ -200,13 +200,18 @@ footer {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
 }
 .height-fix {
-    height: 4000%;
+    height: 4000px;
     display: block;
 }
 .post-main {
     font-family: 'Indie Flower';
     z-index: 10;
 }
+.post-main img {
+    max-width: 100%;
+    height: auto;
+}
+
 .parallax-overlay {
     position: fixed;
     top: 0;
