@@ -58,7 +58,15 @@ body {
     font-size: 15px;
     font-weight: 800;
 }
-navbar .navbar-inverse .container {
+.nav>li>a:focus, .nav>li>a:hover {
+  background-color: darkgreen;
+}
+
+.navbar-toggle .icon-bar+.icon-bar {
+  color: white !important;
+}
+
+ navbar .navbar-inverse .container {
     background-color: rbga(0, 0, 0, 0);
 }
 a {
@@ -104,10 +112,13 @@ footer {
         margin: 6px 0 0 0;
     }
     .navbar-toggle {
-        background-color: black;
+        background-color: darkgreen;
         padding: 16px;
         border-radius: 0;
         margin: 0 10px 0;
+    }
+    .post {
+
     }
 }
 @media (min-width: 768px) and (max-width: 992px) {
@@ -122,9 +133,11 @@ footer {
 }
 .post {
     padding: 20px 24px 24px;
-    margin: 24px 0px;
+    margin: 25px 0px;
     position: relative;
 }
+
+
 .post-background {
     -webkit-filter: url("#turbulence-1");
     -moz-filter: url("#turbulence-1");
