@@ -133,7 +133,7 @@ footer {
 }
 .post {
     padding: 20px 24px 24px;
-    margin: 25px 0px;
+    margin-bottom: 20px !important;
     position: relative;
 }
 

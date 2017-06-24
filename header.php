@@ -14,8 +14,8 @@
     <!-- Bootstrap Core CSS -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-    <!--
-  <link href="<?php echo get_bloginfo('template_directory'); ?>/bootstrap.min.css" rel="stylesheet"/>-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
+
       <!-- Custom CSS -->
     <link href="<?php echo get_bloginfo('template_directory'); ?>/style.css" rel="stylesheet"/>
 
@@ -57,7 +57,8 @@
                 -->
 
                 <!-- Navigation -->
-                <nav class="post" role="navigation" style="margin-bottom: -10;">
+                <nav class="post" role="navigation">
+
                     <div class="post-background"></div>
                     <div class="container post-main">
                         <!-- Brand and toggle get grouped for better mobile display -->
