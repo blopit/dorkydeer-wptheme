@@ -78,7 +78,9 @@
         unsquiggle();
     }
 
-    fixPostHeight(100);
+    $(document).ready(function(){
+        fixPostHeight(200);
+    })
 </script>
 
 <!-- Bootstrap Core JavaScript -->

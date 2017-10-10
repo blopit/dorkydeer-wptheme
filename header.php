@@ -32,7 +32,7 @@
 	<?php wp_head();?>
 </head>
 
-<body>
+<body onload="fixPostHeight(100);">
     <div class="parallax-overlay"></div>
       <!-- Page Content -->
     <div class="container">
