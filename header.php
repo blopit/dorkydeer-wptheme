@@ -22,7 +22,7 @@
     <!-- include google font-->
     <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Indie+Flower" rel="stylesheet">
 
-<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -30,6 +30,13 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 	<?php wp_head();?>
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+      (adsbygoogle = window.adsbygoogle || []).push({
+        google_ad_client: "ca-pub-3173499596362739",
+        enable_page_level_ads: true
+      });
+    </script>
 </head>
 
 <body onload="fixPostHeight(100);">
@@ -75,18 +82,18 @@
                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                             <ul class="nav navbar-nav">
                                 <li>
-                                    <a class="fancy-links" href="#">HOME</a>
+                                    <a class="fancy-links" href="/">HOME</a>
                                 </li>
                                 <li>
-                                    <a class="fancy-links" href="#">ARCHIVE</a>
+                                    <a class="fancy-links"  href="shop">STORE</a>
                                 </li>
                                 <li>
-                                    <a class="fancy-links" href="#">Q + A</a>
+                                    <a class="fancy-links"  href="archive">ARCHIVE</a>
+                                </li>
+                                <li>
+                                    <a class="fancy-links"  href="contact">CONTACT</a>
                                 </li>
 
-                                <li>
-                                    <a class="fancy-links"  href="#">CONTACT</a>
-                                </li>
                             </ul>
                         </div>
                         <!-- /.navbar-collapse -->
