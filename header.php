@@ -37,6 +37,7 @@
         enable_page_level_ads: true
       });
     </script>
+    <?php wp_head();?>
 </head>
 
 <body onload="fixPostHeight(100);">
@@ -64,7 +65,7 @@
                 -->
 
                 <!-- Navigation -->
-                <nav class="post" role="navigation">
+                <nav class="navbar" role="navigation">
 
                     <div class="post-background"></div>
                     <div class="container post-main">
@@ -76,8 +77,7 @@
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
                             </button>
-                            <a class="navbar-brand" href="#"></a>
-                        </div>
+                    </div>
                         <!-- Collect the nav links, forms, and other content for toggling -->
                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                             <ul class="nav navbar-nav">

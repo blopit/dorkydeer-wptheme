@@ -10,9 +10,9 @@
 <footer>
     <div class="row">
         <div class="col-lg-12 footer-text">
-            <p>Copyright &copy; Emi Illustrations | 2017 </p>
+            <p>Copyright &copy; Emi Illustrations | &copy; <?php echo date("Y"); ?> </p>
             <p>
-                Built with ❤ by Haley Elder & Shren Patel
+                Built with	&#x2764; by Haley Elder &amp; Shren Patel
             </p>
         </div>
         <!-- /.col-lg-12 -->

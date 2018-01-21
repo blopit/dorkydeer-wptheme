@@ -10,6 +10,8 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
 */
+
+
 /* CUSTOM STYLES */
 
 body {
@@ -62,8 +64,8 @@ body {
   background-color: darkgreen;
 }
 
-.navbar-toggle .icon-bar+.icon-bar {
-  color: white !important;
+.navbar-toggle .icon-bar {
+  border: 2px solid white;
 }
 
  navbar .navbar-inverse .container {
@@ -72,6 +74,106 @@ body {
 a {
     color: darkgreen;
 }
+
+.navbar {
+    padding: 10px;
+ }
+
+.sidebar div { 
+    margin-bottom: 10px;
+}
+
+.navbar-toggle {
+    background-color: darkgreen;
+    padding: 12px;
+    border-radius: 0;
+    margin: 0 10px 0;
+}
+/************ RESPONSIVE FIXES STYLING ****************/
+
+@media (max-width: 480px) {
+    .about-img {
+        margin: 5px auto;
+    }
+    .navbar {
+       padding: 10px;
+    }
+    .socials a {
+        padding: 0 8% !important;    
+     }
+     .navbar-nav li {
+        text-align: center;
+        padding: 6px 50px;
+        margin: 6px 0 6px 15px;
+    }
+   
+    .sidebar-post {
+        margin-top: 22px;
+    }
+    .sidebar-socials {
+        padding: 10px 0;  
+    }
+    .patreon-icon {
+        width: 20px;
+    }
+    .sidebar-socials .socials i {
+        font-size: 23px;
+    }
+}
+
+@media (max-width: 992px) and (min-width: 481px) {
+    .about-img {
+        width: 33%;
+        float: left;
+        
+    }
+    .sidebar-about-me {
+        width: 60%;
+        float: right;  
+    }
+    div .sidebar-post {
+        width: 43%;
+        float: left;
+        
+        margin: 20px 0 0 30px;
+    }
+    div .post .archives {
+        margin-top: 440px;
+    }
+    .sidebar-socials {
+        padding:10px;
+    }
+    .socials {
+        padding: 0;
+    }
+    .socials a {
+       padding: 0 10%;
+      
+    }
+    .socials a i {
+        font-size: 30px;
+        margin-top: 8px;
+    }
+    .patreon-icon {
+        width: 26px;
+        margin-bottom: 16px;
+    }
+}
+
+@media (min-width: 992px) {
+    .patreon-icon {
+        width: 20px;
+        margin-bottom:10px;
+    }
+    .sidebar-about img {
+        margin: 0 auto;
+    }
+}
+
+
+
+/************ FANCY STYLING ****************/
+
 .fancy-links {
     font-family: 'Gloria Hallelujah', cursive;
 }
@@ -105,22 +207,7 @@ h6 {
 footer {
     text-align: center;
 }
-@media (max-width: 768px) {
-    .navbar-nav li {
-        text-align: center;
-        padding: 6px 50px;
-        margin: 6px 0 0 0;
-    }
-    .navbar-toggle {
-        background-color: darkgreen;
-        padding: 16px;
-        border-radius: 0;
-        margin: 0 10px 0;
-    }
-    .post {
 
-    }
-}
 @media (min-width: 768px) and (max-width: 992px) {
     .navbar-nav li {
         padding: 0 26px;
@@ -459,4 +546,11 @@ footer {
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+}
+
+/************ WOO COMMERCE STYLING ****************/
+
+
+.products li {
+  list-style: none;
 }
